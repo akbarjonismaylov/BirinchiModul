@@ -31,7 +31,7 @@
             Console.WriteLine($"Age: {student2.Age}");
             Console.WriteLine($"Group: {student2.Group}");
             Console.WriteLine($"University: {student2.University}");
-
+            
 
         }
     }

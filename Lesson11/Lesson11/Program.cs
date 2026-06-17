@@ -48,7 +48,6 @@ namespace Lesson11
 
         static void Display(Student student)
         {
-            
             Console.WriteLine($"Name: {student.Name}");
             Console.WriteLine($"Age: {student.Age}");
             Console.WriteLine($"School Name: {student.SchoolName}");

@@ -164,8 +164,7 @@ namespace Lesson6
             double c = 0;
             for (int i = 1; i <= a; i++)
             {
-                
-                c = c + Math.Pow(i, 3);
+                c = Math.Pow(i, 3);
             }
             Console.WriteLine(c);
         }

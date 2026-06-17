@@ -182,6 +182,47 @@
             Console.WriteLine(sum);*/
 
 
+            /*   //21
+
+               Console.Write("List lengthini kiriting (kamida 3 ta elementdan iborat bo'lsin!) > ");
+               var n = int.Parse(Console.ReadLine());
+
+               List<int> ints = new List<int>();
+
+               if (n < 3)
+               {
+                   Console.WriteLine("List uzunligi 3 dan kam bo'lishi mumkin emas!");
+               }
+
+               else
+               {
+                   int value = 0;
+                   int value2 = 0;
+
+                   for (int i = 0; i < n; i++)
+                   {
+                       Console.Write("List elementlarini kiriting > ");
+                       var num = int.Parse(Console.ReadLine());
+                       ints.Add(num);
+
+
+                       if (i == 1)
+                       {
+                           value = ints[1] - ints[0];
+                       }
+                       else if (i >= 2)
+                       {
+                           value2 = ints[^2] - ints[^3];
+                       }
+                   }
+                   if (value == value2)
+                   {
+                       Console.WriteLine(true);
+                   }
+
+                   else Console.WriteLine(false);
+               }*/
+
 
 
         }
